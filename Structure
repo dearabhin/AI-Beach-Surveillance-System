@@ -1,0 +1,23 @@
+AI-Beach-Surveillance-System/
+│
+├── data/                   # Training data for the AI models
+│   ├── videos/             # Sample videos for model training
+│   └── images/             # Sample images for model training
+│
+├── models/                 # Pre-trained and custom-trained AI models
+│   ├── object_detection/   # Object detection models
+│   └── segmentation/       # Segmentation models
+│
+├── src/                    # Source code for the project
+│   ├── detection.py        # Object detection code
+│   ├── monitoring.py       # Core monitoring logic
+│   ├── alert_system.py     # Alert system code
+│   └── utils.py            # Utility functions
+│
+├── hardware/               # Information on hardware integration
+│   └── camera_setup.md     # Instructions for camera setup
+│
+├── requirements.txt        # Python dependencies
+├── README.md               # Project documentation
+├── LICENSE                 # License file
+└── .gitignore              # Git ignore file
